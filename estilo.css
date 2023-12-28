@@ -1,7 +1,10 @@
 
 
 
-/*ul {
+/******************************************
+Barra de navegação vertical
+
+ul {
 	
 	list-style-type: none;
 	margin: 0;
@@ -9,8 +12,9 @@
 }
 
 li {
-	padding: 5px 20px;	
-	background: url('imagens/seta.png') no-repeat left center;
+
+	padding: 5px 20px;
+	background: url(imagens/.png) no-repeat left center;
 }*/
 
 ul {
@@ -18,7 +22,6 @@ ul {
 	padding: 0;
 	list-style-type: none;
 }
-
 ul a {
 	/*border: 1px solid red;*/
 	width: 200px;
@@ -28,11 +31,21 @@ ul a {
 	text-decoration: none;
 	text-indent: 40px;
 	line-height: 40px;
-	background: url('imagens/menu.png') no-repeat left bottom;
-	
+	background: url(imagens/menu.png)  no-repeat left  bottom;
 }
 
 a:hover {
 	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	background-position: right bottom;
+	background-color: #f99200;
 	color: #fff;
 }
